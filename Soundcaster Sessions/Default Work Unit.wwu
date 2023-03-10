@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6CE52817-C681-4A61-996C-1AD2385DBE52}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{6CE52817-C681-4A61-996C-1AD2385DBE52}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{C16C9D4A-A73F-4AC0-9B84-5E28730CD55C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Footsteps" ID="{A9236910-5849-47B3-87C8-1F484053B516}" WorkUnitID="{5442D33F-1CD7-4C60-8E2A-2426AB28E166}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="DesertWind" ID="{59190F1D-56EF-4D2A-A6CD-693CAA1869E4}" WorkUnitID="{5442D33F-1CD7-4C60-8E2A-2426AB28E166}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Speed" ID="{8B3C21B2-DAF9-425B-BB12-CF06E3014CD5}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Water" ID="{208E28FE-B13C-4955-B7FF-F6CC9A13E8EE}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

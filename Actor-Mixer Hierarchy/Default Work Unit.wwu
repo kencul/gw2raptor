@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5442D33F-1CD7-4C60-8E2A-2426AB28E166}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{5442D33F-1CD7-4C60-8E2A-2426AB28E166}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="DesertWind" ID="{59190F1D-56EF-4D2A-A6CD-693CAA1869E4}" ShortID="734811463">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="wind_desert_01_30_loop" ID="{CB799D87-A903-4C3C-ABE8-87BA17CA83CB}" ShortID="689106612">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>66</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B1B4DC73-E953-4F62-A0B3-F551FFFBCC9F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="960"/>
+													<Property Name="Min" Type="Real64" Value="-834"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wind_desert_01_30_loop" ID="{924A38F2-C54E-4BC9-8864-71D2ADC6998E}">
+									<Language>SFX</Language>
+									<AudioFile>wind_desert_01_30_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="316967491"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{903D24DD-6584-45A5-B125-3D07426118C0}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-70.945945945946"/>
+										<Property Name="PanY" Type="Real64" Value="71.7391304347826"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="wind_desert_01_30_loop" ID="{924A38F2-C54E-4BC9-8864-71D2ADC6998E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wind_desert_01_60_loop" ID="{1325C632-D092-41A6-A764-E49E5BEF5019}" ShortID="596711669">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>63</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DB7854BC-96D6-438D-A743-7DCEE19AFF42}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1162"/>
+													<Property Name="Min" Type="Real64" Value="-1137"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wind_desert_01_60_loop" ID="{7F7108AB-F74A-4D31-8936-C2C377A8E10C}">
+									<Language>SFX</Language>
+									<AudioFile>wind_desert_01_60_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="155797392"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{5F20A4D3-4F47-4369-B75E-20220D29DD50}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="65.8783783783784"/>
+										<Property Name="PanY" Type="Real64" Value="67.0289855072464"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="wind_desert_01_60_loop" ID="{7F7108AB-F74A-4D31-8936-C2C377A8E10C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wind_desert_02_30_loop" ID="{D024D9B0-F16F-4DA4-ACD4-D439F16C1620}" ShortID="1072785">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{55CDEEF0-C271-4AA2-AFC6-4777C1CB540F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="404"/>
+													<Property Name="Min" Type="Real64" Value="-379"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wind_desert_02_30_loop" ID="{966B1D74-2545-45DA-BB22-0DFD00FAABE4}">
+									<Language>SFX</Language>
+									<AudioFile>wind_desert_02_30_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="136446515"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{04BA2165-D608-4805-8140-CD95897E1C7B}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-66.554054054054"/>
+										<Property Name="PanY" Type="Real64" Value="-67.3913043478261"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="wind_desert_02_30_loop" ID="{966B1D74-2545-45DA-BB22-0DFD00FAABE4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wind_desert_02_60_loop" ID="{919D812D-ABA9-49DF-9FB6-8971F4BFEBC1}" ShortID="250926272">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>37</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D78E87C7-4F1F-4883-8394-DE2E876E028F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="632"/>
+													<Property Name="Min" Type="Real64" Value="-404"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wind_desert_02_60_loop" ID="{35530293-D4E0-4763-95FE-67E2863F157E}">
+									<Language>SFX</Language>
+									<AudioFile>wind_desert_02_60_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="273908779"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{CB0122AB-F304-44A7-B26C-D359CD074239}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="62.8378378378378"/>
+										<Property Name="PanY" Type="Real64" Value="-68.4782608695652"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="wind_desert_02_60_loop" ID="{35530293-D4E0-4763-95FE-67E2863F157E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wind_desert_03_30_loop" ID="{55200599-3604-40BD-9B4F-507A97F415B7}" ShortID="549378388">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>44</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C92E9B4A-1082-40AA-BD24-07D771C41622}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="531"/>
+													<Property Name="Min" Type="Real64" Value="-733"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wind_desert_03_30_loop" ID="{D34AD9E3-ECE8-446A-AF96-A58874E762ED}">
+									<Language>SFX</Language>
+									<AudioFile>wind_desert_03_30_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="285146473"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{216DEBE0-7E25-4323-96E8-96811DBFDA38}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-74.3243243243243"/>
+										<Property Name="PanY" Type="Real64" Value="0.36231884057971"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="wind_desert_03_30_loop" ID="{D34AD9E3-ECE8-446A-AF96-A58874E762ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wind_desert_03_60_loop" ID="{FA29827E-2E51-4B93-8997-C1C0D8061271}" ShortID="273204798">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>45</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{02CEC1B4-1059-46E7-8D9F-396A5AB429CF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="606"/>
+													<Property Name="Min" Type="Real64" Value="-328"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wind_desert_03_60_loop" ID="{2BF95E3A-ED9E-4C60-8FFB-A6752B36C6B3}">
+									<Language>SFX</Language>
+									<AudioFile>wind_desert_03_60_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="437520388"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{FDB26207-79F3-499A-A962-6B8E7FE22FFB}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="73.9864864864865"/>
+										<Property Name="PanY" Type="Real64" Value="-0.72463768115942"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="wind_desert_03_60_loop" ID="{2BF95E3A-ED9E-4C60-8FFB-A6752B36C6B3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{9BEDEB5F-B022-4C03-8D5E-6FF1910D7928}" ShortID="517980388">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Speed" ID="{8B3C21B2-DAF9-425B-BB12-CF06E3014CD5}" WorkUnitID="{9C89FC17-8E41-4CB9-85BB-FDDACD047FE3}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{32BBCB71-21F6-421F-BD3C-6F1C4B1D9ABC}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-9.93168</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{6AA3A395-0961-4E7D-87EF-6B5088FFC4E3}" ShortID="780669373">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Speed" ID="{8B3C21B2-DAF9-425B-BB12-CF06E3014CD5}" WorkUnitID="{9C89FC17-8E41-4CB9-85BB-FDDACD047FE3}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{EE110FB6-3E5A-4CDE-80CF-9B5FD3E2EA30}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>100</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1.47783</XPos>
+																<YPos>86</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>20.78817</XPos>
+																<YPos>69</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>50</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<BlendTrackList>
+						<BlendTrack Name="General" ID="{F1ABB8E1-3442-474A-88C6-AB281C0EA9CB}" ShortID="516605452">
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="wind_desert_01_30_loop" ID="{CB799D87-A903-4C3C-ABE8-87BA17CA83CB}"/>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="wind_desert_01_60_loop" ID="{1325C632-D092-41A6-A764-E49E5BEF5019}"/>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="wind_desert_02_30_loop" ID="{D024D9B0-F16F-4DA4-ACD4-D439F16C1620}"/>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="wind_desert_02_60_loop" ID="{919D812D-ABA9-49DF-9FB6-8971F4BFEBC1}"/>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="wind_desert_03_30_loop" ID="{55200599-3604-40BD-9B4F-507A97F415B7}"/>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="wind_desert_03_60_loop" ID="{FA29827E-2E51-4B93-8997-C1C0D8061271}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<SwitchContainer Name="Footsteps" ID="{A9236910-5849-47B3-87C8-1F484053B516}" ShortID="389726473">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Sand" ID="{C5B8FB30-2CCC-4F3E-AEB3-4FA3A69D1689}" WorkUnitID="{E56950C6-D0BB-4D3E-9BDA-D369765B1E61}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Ground" ID="{9C646353-9A6E-4A48-829B-B4AD6B586B32}" WorkUnitID="{E56950C6-D0BB-4D3E-9BDA-D369765B1E61}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{9CD12C45-281F-48F0-8117-4ED02606B8B2}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Sand" ID="{009C1D0A-AEB7-48E2-90F5-E6197E8D103B}" ShortID="104993743">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Expander" CompanyID="0" PluginID="109" PluginType="3">
+									<ObjectRef Name="Noise_Gate_Fast_Attack" ID="{747A6B61-E953-474C-8227-672C884DA616}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="Attack_Remover" ID="{174E7B9A-A16F-4CA7-86D0-530212B5A6AA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FOOTSTEPS_BOOTS_SAND_STEP08" ID="{A1CE18F4-1085-4BEC-882D-367C45980AD8}" ShortID="257794345">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOOTSTEPS_BOOTS_SAND_STEP08" ID="{B2840333-C3EC-443D-8348-146A6500A578}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0141626314664544"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.263779011062713"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FOOTSTEPS_BOOTS_SAND_STEP08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="100472189"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOOTSTEPS_BOOTS_SAND_STEP08" ID="{B2840333-C3EC-443D-8348-146A6500A578}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOOTSTEPS_BOOTS_SAND_STEP07" ID="{6C489546-5A58-4F29-8DF8-322DE13304F8}" ShortID="195361690">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOOTSTEPS_BOOTS_SAND_STEP07" ID="{CDB19908-42B5-4599-950F-FC47CEA86303}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0082137268052761"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.247675454436018"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FOOTSTEPS_BOOTS_SAND_STEP07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="239330922"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOOTSTEPS_BOOTS_SAND_STEP07" ID="{CDB19908-42B5-4599-950F-FC47CEA86303}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOOTSTEPS_BOOTS_SAND_STEP03" ID="{EC411A0A-1B11-4F66-A6A2-232EB40EE1D4}" ShortID="642057762">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOOTSTEPS_BOOTS_SAND_STEP03" ID="{28F3C6D1-0D48-47A0-9243-8896548F5F8B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.143011917659805"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.279523293607801"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FOOTSTEPS_BOOTS_SAND_STEP03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="884263507"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOOTSTEPS_BOOTS_SAND_STEP03" ID="{28F3C6D1-0D48-47A0-9243-8896548F5F8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOOTSTEPS_BOOTS_SAND_STEP02" ID="{1542B172-A543-4FB5-8FD9-8DE6BDA079F0}" ShortID="161776952">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOOTSTEPS_BOOTS_SAND_STEP02" ID="{027B20B7-DE4F-40B3-B1D7-A91056E406E8}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0727372292362232"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.323448530007886"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.553267222381911"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FOOTSTEPS_BOOTS_SAND_STEP02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1024059478"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOOTSTEPS_BOOTS_SAND_STEP02" ID="{027B20B7-DE4F-40B3-B1D7-A91056E406E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOOTSTEPS_BOOTS_SAND_STEP05" ID="{6C3DD29A-184E-4978-AA54-9E3ACDBFF474}" ShortID="371878545">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOOTSTEPS_BOOTS_SAND_STEP05" ID="{81CF0F5B-1DBD-4727-A978-C07ECEB77786}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0377764511366121"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.205409453055328"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0513523632638321"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FOOTSTEPS_BOOTS_SAND_STEP05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="426508708"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOOTSTEPS_BOOTS_SAND_STEP05" ID="{81CF0F5B-1DBD-4727-A978-C07ECEB77786}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOOTSTEPS_BOOTS_SAND_STEP04" ID="{6F8D5CAD-FEA6-4049-8D02-1CBCC6F31D09}" ShortID="409965268">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOOTSTEPS_BOOTS_SAND_STEP04" ID="{78793AFD-544D-4003-A40C-4F6D4DCC98E3}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0344920069869768"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.154149463324514"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FOOTSTEPS_BOOTS_SAND_STEP04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="282010394"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOOTSTEPS_BOOTS_SAND_STEP04" ID="{78793AFD-544D-4003-A40C-4F6D4DCC98E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOOTSTEPS_BOOTS_SAND_STEP06" ID="{E18F76AC-D39F-4A67-BBA5-A6CD0EC9CF1E}" ShortID="673090381">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>24</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOOTSTEPS_BOOTS_SAND_STEP06" ID="{70A849C1-E0AE-40FA-AE5F-64B71DEFA2FF}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0336960222875716"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0877166294470117"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0246034448448935"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FOOTSTEPS_BOOTS_SAND_STEP06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="965651383"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOOTSTEPS_BOOTS_SAND_STEP06" ID="{70A849C1-E0AE-40FA-AE5F-64B71DEFA2FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOOTSTEPS_BOOTS_SAND_STEP01" ID="{FD9BEB89-FCB8-4831-90E4-31F958DFF4FA}" ShortID="127780813">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOOTSTEPS_BOOTS_SAND_STEP01" ID="{D5250C75-336D-4FEC-ABB3-D775B02FC98B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0572821544652531"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0474623565569239"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FOOTSTEPS_BOOTS_SAND_STEP01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="755195534"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOOTSTEPS_BOOTS_SAND_STEP01" ID="{D5250C75-336D-4FEC-ABB3-D775B02FC98B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{99B907AA-A23D-4DD4-8F4A-B8721A0034E6}" ShortID="499799256">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="PlayMechanismSpecialTransitionsValue"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Speed" ID="{8B3C21B2-DAF9-425B-BB12-CF06E3014CD5}" WorkUnitID="{9C89FC17-8E41-4CB9-85BB-FDDACD047FE3}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{CFFFE83D-2484-435E-891A-C07A57FD90C7}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.99438</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{8BF770D6-F86E-4B98-AF96-60E5A9804563}" ShortID="529103694">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Speed" ID="{8B3C21B2-DAF9-425B-BB12-CF06E3014CD5}" WorkUnitID="{9C89FC17-8E41-4CB9-85BB-FDDACD047FE3}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{67EC9B35-4454-42AC-9AEE-51D0AA127DD5}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-6.20058</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0.04427</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Water" ID="{FE77C9AE-F660-4432-A066-2FB0C62E695F}" ShortID="88160181">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1C89DE43-10A9-4AF2-9116-CAD30719DE60}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="354"/>
+													<Property Name="Min" Type="Real64" Value="-202"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="footsteps_running_water_02_loop" ID="{CF4935CA-AD89-4115-9C6C-BC9950A51338}" ShortID="23787505">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footsteps_running_water_02_loop" ID="{3EA2BF73-BCE3-4C40-A95F-D963CDB042A2}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.041324823943662"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.20662411971831"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.4"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>footsteps_running_water_02_loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="858241833"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footsteps_running_water_02_loop" ID="{3EA2BF73-BCE3-4C40-A95F-D963CDB042A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footsteps_running_water_02_loop_01" ID="{7CAED59B-FD76-45FA-822D-3DE7F56CFAB4}" ShortID="368332536">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footsteps_running_water_02_loop" ID="{CD112D9E-35FC-4329-9046-E28272F8D48C}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0743846830985916"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.388453345070423"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.735581866197182"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>footsteps_running_water_02_loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="118811429"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footsteps_running_water_02_loop" ID="{CD112D9E-35FC-4329-9046-E28272F8D48C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footsteps_running_water_02_loop_02" ID="{680CDF90-6D6E-4CD1-9724-8D8BB4F0B164}" ShortID="765596169">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footsteps_running_water_02_loop" ID="{FD72729E-374E-40B9-A98F-FDAA916B74C3}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0330598591549296"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.175257594141693"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.83482218309859"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.26460035211268"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>footsteps_running_water_02_loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="68862570"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footsteps_running_water_02_loop" ID="{FD72729E-374E-40B9-A98F-FDAA916B74C3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footsteps_running_water_02_loop_03" ID="{8A91549E-A21E-40B1-B9F4-37966F3A0055}" ShortID="826759711">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footsteps_running_water_02_loop" ID="{C0B2DB3C-80DA-4933-BCB9-54E45BD51960}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0578547535211267"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0991795774647888"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.04150704225352"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.42169542253521"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>footsteps_running_water_02_loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="233391208"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footsteps_running_water_02_loop" ID="{C0B2DB3C-80DA-4933-BCB9-54E45BD51960}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footsteps_running_water_02_loop_04" ID="{EC0FE654-FC1D-47B6-A664-9D0D3DED6464}" ShortID="692127789">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footsteps_running_water_02_loop" ID="{9E15F50C-2AA8-4A91-B66B-52FE1431971E}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0326575000923626"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0886417859649846"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="6.55411707746479"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.92875892659222"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>footsteps_running_water_02_loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="685619941"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footsteps_running_water_02_loop" ID="{9E15F50C-2AA8-4A91-B66B-52FE1431971E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{25E0682D-A836-4470-8338-BE7462627E8F}" ShortID="26921877">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Speed" ID="{8B3C21B2-DAF9-425B-BB12-CF06E3014CD5}" WorkUnitID="{9C89FC17-8E41-4CB9-85BB-FDDACD047FE3}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{5896BB26-7A59-46FE-B6FA-6E988EA4CBD5}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-10.73579</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0.0442700000000116</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{226570B9-8381-406F-9864-2B204602875E}" ShortID="687837841">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="PlayMechanismSpecialTransitionsValue"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Speed" ID="{8B3C21B2-DAF9-425B-BB12-CF06E3014CD5}" WorkUnitID="{9C89FC17-8E41-4CB9-85BB-FDDACD047FE3}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{DDDBC907-5FD8-4FB2-8BDA-F384ADC094D1}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.2</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-0.8</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{0267CC38-89F8-4192-ABAA-799CD4DC6A25}" ShortID="370735688">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Highpass"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Speed" ID="{8B3C21B2-DAF9-425B-BB12-CF06E3014CD5}" WorkUnitID="{9C89FC17-8E41-4CB9-85BB-FDDACD047FE3}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{93A40056-1DF8-4638-BC41-47C3FDE8B208}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>7</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>53</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{BA331E24-C41E-41FB-BD9F-81005C507D28}" ShortID="42056773">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Speed" ID="{8B3C21B2-DAF9-425B-BB12-CF06E3014CD5}" WorkUnitID="{9C89FC17-8E41-4CB9-85BB-FDDACD047FE3}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{1F8AF7CB-AA96-477C-A363-9E84C678DA87}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-611</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>726</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Ground" ID="{9C646353-9A6E-4A48-829B-B4AD6B586B32}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Water" ID="{208E28FE-B13C-4955-B7FF-F6CC9A13E8EE}"/>
+								<CustomState Name="" ID="{E9473877-7374-4CF6-A328-5C77698CB81A}" ShortID="816609973"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Sand" ID="{C5B8FB30-2CCC-4F3E-AEB3-4FA3A69D1689}"/>
+								<CustomState Name="" ID="{A635349E-F2C7-426E-84F6-6286FDCA8766}" ShortID="932099980"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Sand" ID="{009C1D0A-AEB7-48E2-90F5-E6197E8D103B}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Water" ID="{FE77C9AE-F660-4432-A066-2FB0C62E695F}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Sand" ID="{C5B8FB30-2CCC-4F3E-AEB3-4FA3A69D1689}"/>
+								<ItemList>
+									<ItemRef Name="Sand" ID="{009C1D0A-AEB7-48E2-90F5-E6197E8D103B}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Water" ID="{208E28FE-B13C-4955-B7FF-F6CC9A13E8EE}"/>
+								<ItemList>
+									<ItemRef Name="Water" ID="{FE77C9AE-F660-4432-A066-2FB0C62E695F}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Skid" ID="{3C8BDB7C-922B-44F8-9C61-C56ABC88BD55}" ShortID="675803499">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Sand" ID="{C5B8FB30-2CCC-4F3E-AEB3-4FA3A69D1689}" WorkUnitID="{E56950C6-D0BB-4D3E-9BDA-D369765B1E61}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Ground" ID="{9C646353-9A6E-4A48-829B-B4AD6B586B32}" WorkUnitID="{E56950C6-D0BB-4D3E-9BDA-D369765B1E61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SandPaper_AP1_1210" ID="{CED20C43-DC92-4628-9FB1-C2E8E3767951}" ShortID="215380769">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>42</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>38</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-560</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SandPaper_AP1_1210" ID="{829788AF-BCA3-4D78-81EC-8853E96D2355}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.231887323943662"/>
+										<Property Name="FadeOutShape" Type="int16" Value="3"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.295956663055255"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SandPaper_AP1.1210.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="404555348"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SandPaper_AP1_1210" ID="{829788AF-BCA3-4D78-81EC-8853E96D2355}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Water_Spray_ODY-0486-091" ID="{766864E8-46DF-4D66-9811-D5E9854238C0}" ShortID="368919424">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2920EA14-9860-49E5-828F-880FA11BE72C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BF6E7A2A-98CF-4ACC-81C9-04526AD4D0A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Water_Spray_ODY-0486-091" ID="{CA63BB2F-9BE3-4A90-989D-5608695362E5}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0669931383170823"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.52376453593355"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.15596099674973"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.12431635969664"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Water_Spray_ODY-0486-091.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1052225024"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Water_Spray_ODY-0486-091" ID="{CA63BB2F-9BE3-4A90-989D-5608695362E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="SandPaper_AP1_1210" ID="{CED20C43-DC92-4628-9FB1-C2E8E3767951}"/>
+								<PropertyList>
+									<Property Name="FirstOccurenceOnly" Type="bool" Value="True"/>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Water_Spray_ODY-0486-091" ID="{766864E8-46DF-4D66-9811-D5E9854238C0}"/>
+								<PropertyList>
+									<Property Name="FirstOccurenceOnly" Type="bool" Value="True"/>
+								</PropertyList>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Sand" ID="{C5B8FB30-2CCC-4F3E-AEB3-4FA3A69D1689}"/>
+								<ItemList>
+									<ItemRef Name="SandPaper_AP1_1210" ID="{CED20C43-DC92-4628-9FB1-C2E8E3767951}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Water" ID="{208E28FE-B13C-4955-B7FF-F6CC9A13E8EE}"/>
+								<ItemList>
+									<ItemRef Name="Water_Spray_ODY-0486-091" ID="{766864E8-46DF-4D66-9811-D5E9854238C0}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

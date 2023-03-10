@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3E02962E-AAAF-4C99-86A8-6F48A6224FA3}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3E02962E-AAAF-4C99-86A8-6F48A6224FA3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Step" ID="{31DE3EB0-1371-4437-81B5-21FD5AE896D6}">
+					<ChildrenList>
+						<Action Name="" ID="{49E78ADE-43D9-4061-BF53-16BD27EA8682}" ShortID="260500840">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{A9236910-5849-47B3-87C8-1F484053B516}" WorkUnitID="{5442D33F-1CD7-4C60-8E2A-2426AB28E166}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E56950C6-D0BB-4D3E-9BDA-D369765B1E61}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{E56950C6-D0BB-4D3E-9BDA-D369765B1E61}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Ground" ID="{9C646353-9A6E-4A48-829B-B4AD6B586B32}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{26C4CEE5-0906-4C9E-A916-C30691EFDD36}"/>
+						<State Name="Sand" ID="{C5B8FB30-2CCC-4F3E-AEB3-4FA3A69D1689}"/>
+						<State Name="Water" ID="{208E28FE-B13C-4955-B7FF-F6CC9A13E8EE}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Sand" ID="{C5B8FB30-2CCC-4F3E-AEB3-4FA3A69D1689}"/>
+							<EndState Name="None" ID="{26C4CEE5-0906-4C9E-A916-C30691EFDD36}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
